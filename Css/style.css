@@ -85,6 +85,11 @@ article h2{
   padding: 16px;
   margin: 20px;
 }
+.somos h2,
+.somos p{
+  margin: 20px;
+}
+
 footer {
   background-color: #FFEBAE;
   color: #fff;
@@ -102,3 +107,39 @@ footer {
   margin: 4px 30px;
   padding: 4px;
 }
+
+form {
+  max-width: 100%;
+  margin: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc; 
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
