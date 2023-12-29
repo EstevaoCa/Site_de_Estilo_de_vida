@@ -1,0 +1,52 @@
+/*
+font-family: 'Martel Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #332F2F;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+header{
+  width: 100%;
+  background-color: #FFEBAE;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  margin-bottom:32px;
+}
+header .conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Rede_social li a img{
+  height: 32px;
+}
+.conteiner li a{
+  text-decoration: none;
+}
+.conteiner{
+  display: flex;
+  justify-content: space-around;
+}
+.conteiner ul li{
+  display: inline-block;
+  margin: 0 8px;
+}
+.conteiner li a:hover{
+  text-decoration: underline ;
+}
+article img{
+  width: 100%;
+  height: 600px;
+  display: block; 
+  object-fit: cover;
+}
+article h2{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
