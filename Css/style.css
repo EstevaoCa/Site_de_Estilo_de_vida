@@ -119,7 +119,7 @@ form {
 
 .form-group {
   margin-bottom: 10px;
-  width: 400px;
+  min-width: 300px;
 }
 
 label {
